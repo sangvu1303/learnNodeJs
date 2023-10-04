@@ -16,13 +16,15 @@
 
     npx sequelize-cli init
 
-> > example:
-
-    npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
-
     npx sequelize-cli db:migrate
 
-    npx sequelize-cli seed:generate --name demo-user
+> > example:
+
+    npx sequelize-cli model:generate --name User --attributes email:string,firstName:string,lastName:string,address:string,gender:boolean,roleid:string --> change file user.js --> create all file models & migration --> copy & paste code
+
+    npx sequelize-cli db:migrate // it is code what create database in mysql
+
+    npx sequelize-cli seed:generate --name demo-user // create fake database for test
 
     npx sequelize-cli db:seed:all
 
