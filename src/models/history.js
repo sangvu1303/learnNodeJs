@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
 			patientId: DataTypes.INTEGER,
 			doctorId: DataTypes.INTEGER,
 			description: DataTypes.TEXT,
-			files: DataTypes.STRING,
+			files: DataTypes.TEXT,
 		},
 		{
 			sequelize,

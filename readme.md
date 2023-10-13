@@ -30,4 +30,12 @@
 
 ### Git
 
+    git init
+
+    git add .
+
+    git commit -m '....'
+
+    git remote add stack git@github.com:{yourAccount}/{yourProjectName}.git
+
     git push stack master
