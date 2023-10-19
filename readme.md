@@ -1,3 +1,16 @@
+### Setup NodeJs Version from NVM
+    Download : https://github.com/coreybutler/nvm-windows/releases
+
+    nvm-windows runs in an Admin shell. You'll need to start powershell or Command Prompt as Administrator to use nvm-windows
+
+    nvm -v
+
+    nvm list
+
+    nvm install a.b.c
+
+    nvm use a.b.c
+
 ### NodeJs(Express):
 
     npm init
@@ -6,7 +19,7 @@
 
     npm install --save-dev @babel/core@7.15.5 @babel/preset-env@7.15.6 @babel/node@7.15.4 nodemon@3.0.1
 
-### MySql(Sequelize):
+### MySql(Sequelize): using ORM instead of query
 
     npm install --save-dev sequelize@6.33.0 sequelize-cli@6.6.1
 
@@ -39,3 +52,9 @@
     git remote add stack git@github.com:{yourAccount}/{yourProjectName}.git
 
     git push stack master
+
+### Download
+
+    Koala : http://koala-app.com/   (css)
+
+    Postman : https://www.postman.com/downloads/   (api)
